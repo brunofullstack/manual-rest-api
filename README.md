@@ -85,7 +85,7 @@
 17. [Referências](#17.-referências)
     - Livros, artigos e recursos online
 
-# 1. Introdução
+## 1. Introdução
 
 #### O que é uma REST API?
 
@@ -206,7 +206,7 @@ Outros formatos de representação podem incluir HTML, YAML e mais, dependendo d
 
 Nesta seção, exploramos os fundamentos essenciais da arquitetura REST, incluindo a definição de recursos e URIs, verbos HTTP, o princípio de estado e stateless, e formatos de representação. Na próxima seção, aprofundaremos os detalhes sobre a estrutura de URLs em uma API REST.
 
-# 3. Estrutura de URL
+## 3. Estrutura de URL
 
 A estrutura de URLs desempenha um papel vital em uma API REST, pois define como os recursos são organizados e acessados. Nesta seção da apostila, abordaremos dois aspectos importantes da estrutura de URL em uma API REST: hierarquia de recursos e parâmetros de consulta.
 
@@ -239,7 +239,7 @@ Os parâmetros de consulta oferecem flexibilidade aos clientes, permitindo que e
 
 Nesta seção, exploramos a hierarquia de recursos e os parâmetros de consulta na estrutura de URL de uma API REST. A próxima seção da apostila abordará os métodos HTTP, que desempenham um papel fundamental na interação com esses recursos.
 
-# 4. Métodos HTTP
+## 4. Métodos HTTP
 
 Os métodos HTTP desempenham um papel essencial na interação com recursos em uma API REST. Cada método HTTP tem um propósito específico e é usado para realizar operações diferentes nos recursos. Nesta seção da apostila, exploraremos os cinco métodos HTTP mais comuns em APIs REST: GET, POST, PUT, DELETE e PATCH.
 
@@ -280,7 +280,7 @@ Os métodos HTTP desempenham um papel essencial na interação com recursos em u
 
 Cada método HTTP tem um papel específico na manipulação de recursos em uma API REST. Ao escolher o método apropriado para cada operação, você pode criar uma API eficiente e de fácil utilização para seus clientes. Na próxima seção da apostila, discutiremos os códigos de status HTTP, que são usados para comunicar o resultado das solicitações.
 
-# 5. Status HTTP
+## 5. Status HTTP
 
 Os códigos de status HTTP são códigos numéricos que indicam o resultado de uma solicitação HTTP feita a um servidor. Eles fornecem informações sobre o sucesso ou falha da solicitação e, às vezes, informações adicionais sobre o motivo da falha. Nesta seção da apostila, vamos explorar alguns dos códigos de status HTTP mais comuns em APIs REST.
 
@@ -326,7 +326,7 @@ O código de status **503 Service Unavailable** indica que o servidor não está
 
 Estes são apenas alguns dos códigos de status HTTP mais comuns. Existem muitos outros códigos de status que podem fornecer informações mais detalhadas sobre o resultado de uma solicitação. Ao desenvolver ou consumir APIs REST, é importante compreender o significado dos códigos de status para lidar eficazmente com os resultados das solicitações.
 
-# 6. Representações
+## 6. Representações
 
 As representações são a forma pela qual os recursos são apresentados em uma API REST. Elas definem como os dados são estruturados e formatados para serem transmitidos pela rede. As representações podem ser em vários formatos, sendo JSON e XML os mais comuns. Nesta seção da apostila, exploraremos esses formatos e mencionaremos outros menos comuns.
 
@@ -376,7 +376,7 @@ Além de JSON e XML, existem outros formatos de representação de dados que pod
 
 A escolha do formato de representação de dados depende das necessidades da aplicação, da compatibilidade com as ferramentas utilizadas e das preferências da equipe de desenvolvimento. É importante documentar claramente o formato esperado em sua API para que os clientes saibam como interpretar os dados.
 
-# 7. Autenticação e Autorização
+## 7. Autenticação e Autorização
 
 A autenticação e a autorização são aspectos críticos em qualquer API REST para garantir que apenas usuários autorizados tenham acesso aos recursos apropriados. Nesta seção da apostila, exploraremos diferentes métodos de autenticação e autorização comuns em APIs REST.
 
@@ -428,7 +428,7 @@ As funções podem ser atribuídas aos usuários durante o processo de autentica
 
 A escolha do método de autenticação e autorização depende dos requisitos de segurança da sua aplicação e do nível de controle de acesso necessário. É importante implementar práticas de segurança adequadas para proteger os dados e os recursos da sua API REST.
 
-# 8. Melhores Práticas
+## 8. Melhores Práticas
 
 Para desenvolver uma API REST de alta qualidade e bem projetada, é importante seguir melhores práticas que garantam a eficiência, a escalabilidade e a facilidade de uso. Nesta seção da apostila, discutiremos algumas das melhores práticas mais importantes ao projetar e implementar APIs REST.
 
@@ -482,7 +482,7 @@ Além disso, considere a implementação de **rastreamento** (tracing) para acom
 
 Ao seguir essas melhores práticas, você estará no caminho certo para criar uma API REST robusta, de fácil utilização e altamente eficaz. Lembre-se de que as boas práticas de API evoluem com o tempo, portanto, fique atento às tendências e aos feedbacks dos desenvolvedores para aprimorar continuamente sua API.
 
-# 9. Segurança
+## 9. Segurança
 
 A segurança é uma consideração crítica ao projetar e implementar uma API REST. A proteção contra ataques comuns, o uso de SSL/TLS (Secure Sockets Layer/Transport Layer Security) e a autenticação de dois fatores são aspectos importantes da segurança de uma API REST. Vamos explorar cada um deles:
 
@@ -520,7 +520,7 @@ A implementação da 2FA é altamente recomendada para proteger o acesso a dados
 
 Lembre-se de que a segurança é uma preocupação contínua, e é importante manter-se atualizado com as melhores práticas de segurança e responder a novas ameaças à medida que surgem. Testes de segurança regulares, auditorias de código e revisões de segurança são práticas importantes para manter sua API segura ao longo do tempo.
 
-# 10. Exemplos Práticos
+## 10. Exemplos Práticos
 
 Vamos dar uma olhada em alguns exemplos práticos que ilustram o desenvolvimento de uma API simples, a documentação da API e os testes e depuração associados. Neste exemplo, criaremos uma API REST básica para gerenciar tarefas de lista de afazeres (to-do list).
 
@@ -580,7 +580,7 @@ A documentação da API é crucial para ajudar os desenvolvedores a entender com
 
 Lembre-se de que o desenvolvimento de uma API é um processo iterativo. À medida que você adiciona mais recursos e clientes começam a usar a API, você pode precisar fazer atualizações e melhorias. A documentação e os testes são essenciais para garantir a qualidade e a confiabilidade da API.
 
-# 11. Ferramentas e Bibliotecas
+## 11. Ferramentas e Bibliotecas
 
 Existem muitas ferramentas e bibliotecas disponíveis para ajudar no desenvolvimento, teste e documentação de APIs REST. Abaixo estão algumas das mais populares e amplamente utilizadas em cada categoria:
 
@@ -616,7 +616,7 @@ Existem muitas ferramentas e bibliotecas disponíveis para ajudar no desenvolvim
 
 Estas são apenas algumas das ferramentas e bibliotecas disponíveis para ajudar no desenvolvimento, teste e documentação de APIs REST. A escolha de ferramentas dependerá das preferências da equipe de desenvolvimento e dos requisitos específicos do projeto.
 
-# 12. Avançado
+## 12. Avançado
 
 Nesta seção, exploraremos tópicos avançados relacionados a APIs REST, incluindo HATEOAS, GraphQL versus REST e a relação entre WebSockets e REST.
 
@@ -650,7 +650,7 @@ WebSockets são ideais para aplicativos que exigem comunicação em tempo real, 
 
 A escolha entre WebSockets e REST depende dos requisitos da sua aplicação e da necessidade de comunicação em tempo real. Em muitos casos, você pode usar ambos em conjunto para atender a diferentes necessidades de comunicação na mesma aplicação.
 
-# 13. Considerações de Desempenho
+## 13. Considerações de Desempenho
 
 Ao projetar e implementar uma API REST, é importante considerar o desempenho, especialmente quando se lida com um grande volume de solicitações e tráfego de dados. Aqui estão algumas considerações de desempenho importantes:
 
@@ -688,7 +688,7 @@ O **balanceamento de carga** é essencial quando se dimensiona uma API REST para
 
 Essas considerações de desempenho são fundamentais para garantir que sua API REST seja capaz de atender a uma carga de trabalho crescente e proporcionar uma experiência rápida e confiável aos usuários. O dimensionamento e a otimização contínuos são necessários à medida que a API cresce e evolui.
 
-# 14. Estudos de Caso
+## 14. Estudos de Caso
 
 Aqui estão alguns exemplos do mundo real de REST APIs que são amplamente utilizadas em várias indústrias:
 
@@ -718,7 +718,7 @@ A **Spotify API** permite que os desenvolvedores acessem e integrem os serviços
 
 Esses são apenas alguns exemplos de APIs REST do mundo real que desempenham um papel fundamental em várias indústrias e domínios. As APIs REST facilitam a integração de serviços e dados, permitindo que aplicativos e sistemas se comuniquem de maneira eficaz e eficiente.
 
-# 15. Tendências Futuras
+## 15. Tendências Futuras
 
 O campo das APIs REST e da comunicação entre sistemas está em constante evolução. Algumas das tendências futuras e tecnologias emergentes incluem:
 
@@ -751,7 +751,7 @@ O **HTTP/3** é uma atualização significativa do protocolo HTTP que visa melho
 
 Essas tendências futuras refletem a contínua evolução da tecnologia e das práticas de desenvolvimento de APIs. À medida que novas tecnologias se tornam disponíveis, é importante estar atento às oportunidades que elas oferecem para melhorar a eficiência e a funcionalidade das APIs REST e sistemas distribuídos em geral.
 
-# 16. Conclusão
+## 16. Conclusão
 
 Nesta apostila, exploramos amplamente o mundo das APIs REST, desde os conceitos básicos até considerações avançadas de design, segurança e desempenho. Vamos resumir os principais pontos abordados:
 
@@ -803,7 +803,7 @@ Se você deseja aprofundar seus conhecimentos em APIs REST, aqui estão alguns p
 
 Lembre-se de que o aprendizado contínuo é fundamental, pois a tecnologia está sempre evoluindo. Aprofundar seu conhecimento em APIs REST abrirá muitas oportunidades emocionantes no mundo do desenvolvimento de software e integração de sistemas.
 
-# 17. Referências
+## 17. Referências
 
 Aqui estão algumas referências úteis, incluindo livros, artigos e recursos online, que você pode consultar para aprender mais sobre REST APIs:
 
